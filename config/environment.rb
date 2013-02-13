@@ -1,5 +1,4 @@
 require 'i18n'
-require 'pry'
 require './lib/eval_script'
 require './lib/helpers'
 require './lib/article'
