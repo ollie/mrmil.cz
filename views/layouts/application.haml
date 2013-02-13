@@ -1,0 +1,15 @@
+!!! 5
+%html{ lang: 'cs' }
+  %head
+    %meta{ charset: 'utf-8' }
+    %title= head_title @title
+    %link{ rel: 'stylesheet', href: '/stylesheets/basic.css' }
+    %link{ rel: 'stylesheet', href: '/stylesheets/layout.css' }
+    %meta{ name: 'viewport', content: 'width=480' }
+  %body
+    %h1= @title
+
+    = yield
+
+    - if current_env == 'production'
+      %script{ src: '/javascripts/analytics.js' }
