@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 module Sinatra
   module Helpers
     def partial(template, *args)
