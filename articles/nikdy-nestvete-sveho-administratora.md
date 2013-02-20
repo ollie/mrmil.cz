@@ -1,4 +1,4 @@
-> ## Actual Resignation Letter from a System Administrator
+> ### Actual Resignation Letter from a System Administrator
 >
 > **Mr. Baker,**
 >

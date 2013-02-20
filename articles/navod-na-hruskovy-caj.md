@@ -1,9 +1,9 @@
-## Ingredience
+### Ingredience
 
 * Středně velká hruška
 * Středně velký hrnek
 * Vařící voda
 
-## Postup
+### Postup
 
 Hrušku dáme do hrnku a zalijeme vařící vodou. Podáváme jemně chlazené.

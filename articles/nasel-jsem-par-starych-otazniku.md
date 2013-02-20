@@ -1,4 +1,4 @@
-## Určitě ho všichni znáte, Ivan každého nádraží:
+### Určitě ho všichni znáte, Ivan každého nádraží:
 
 
 * „Vážení cestující. Na nástupišti – číslo – dva – kolej – osmá – nastupujte do osobního vlaku – číslo – padesát – šest – nula – šest – ve směru – Pardubice hlavní nádraží. Upozorňujeme cestující – vlak ve stanici – Pardubice Rosice – vybuchuje.“
@@ -6,7 +6,7 @@
 
 Pozn.: pomlčky znamenají Ivanovu mezislovní pauzu, která je většinou tak dlouhá, že by si klidně stihnul zajít i pro kafe.
 
-## Rutinní přežblepty průvodčích:
+### Rutinní přežblepty průvodčích:
 
 * „Dobrý den, přistoupily Vaše jízdenky.“
 * „Dobrý den, přistupoval cestující.“

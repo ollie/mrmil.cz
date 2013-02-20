@@ -1,8 +1,12 @@
 - title I18n.t('mrmil')
 
-- @articles.each do |article|
-  %h2
-    %a{ href: article.url }= article.name
+.width.intro
   %p
-    = article.info
-    = I18n.l article.at
+    Toto je blog o nesmyslech, jste tu správně? Nesmysly píše
+    = succeed '.' do
+      %a{ href: 'http://www.oldrichvetesnik.cz/' } Oldřich Vetešník
+
+- @articles.each_with_index do |article, index|
+  %div.stripe{ class: ('colored' if index % 2 == 0) }
+    .width
+      = partial 'article', locals: { article: article }

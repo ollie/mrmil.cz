@@ -1,6 +1,6 @@
 Vážení cestující, já jsem se nestačil divit. Víte, co je látkové množství a mol? Nevadí, čtěte dál.
 
-## Co o něm říká Wikipedie
+### Co o něm říká Wikipedie
 
 > Látkové množství je fyzikální veličina vyjadřující počet (např.) atomů nějaké látky v nějaké jiné látce. (Používá se např. k výpočtu koncentrace roztoků.)
 >
@@ -8,7 +8,7 @@ Vážení cestující, já jsem se nestačil divit. Víte, co je látkové množ
 
 Zdroj: <a href="http://cs.wikipedia.org/wiki/Látkové_množství" rel="nofollow">http://cs.wikipedia.org/wiki/Látkové_množství</a>.
 
-## A co říká onen úžasný článek?
+### A co říká onen úžasný článek?
 
 > krtek (symbol: mol) je jeden z sedmi základu Sie jednotky. To je definováno jako množství substance systému, který obsahuje tolik základních entit, zatímco tam jsou atomy v 0.012 kilogram uhlíku- 12. Když krtek je používán, základní entity musí být specifikovány. Entity mohou být:
 >
@@ -23,7 +23,7 @@ Zdroj: <a href="http://cs.wikipedia.org/wiki/Látkové_množství" rel="nofollow
 >
 > Krtek atomů nebo molekul je také nazvaný 'atom gramu' nebo 'molekula gramu', příslušně.
 >
-> ### Krtci a výpočty
+> #### Krtci a výpočty
 >
 > …
 >

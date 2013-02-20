@@ -1,4 +1,29 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  width: 80%;
-  margin: 0 auto;
+  margin: 0;
+  padding: 4em 0 0;
+}
+
+.footer {
+  font-size: 0.8125em;
+}
+
+.width {
+  margin: 0 10%;
+}
+
+.intro {
+  padding-bottom: 2em;
+}
+
+.stripe {
+  padding: 2em 0;
+}
+
+.stripe.colored {
+  background: #eee;
 }

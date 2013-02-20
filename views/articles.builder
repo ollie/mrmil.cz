@@ -9,7 +9,7 @@ xml.rss :version => '2.0', 'xmlns:atom' => 'http://www.w3.org/2005/Atom' do
     xml.link 'http://www.mrmil.cz/stranky.rss'
     xml.tag! 'atom:link', :rel => 'self', :href => 'http://www.mrmil.cz/stranky.rss', :type => 'application/rss+xml'
 
-    Article.articles.each do |article|
+    @articles.each do |article|
       xml.item do
         xml.title article.name
         xml.link with_host(article.url)
@@ -21,7 +21,7 @@ xml.rss :version => '2.0', 'xmlns:atom' => 'http://www.w3.org/2005/Atom' do
         xml.description o.join("\r\n")
         xml.author 'vetesnik@mrmil.cz (Oldřich Vetešník)'
         xml.guid with_host(article.url)
-        xml.pubDate time_rss(article.at)
+        xml.pubDate time_rss(article.date)
       end
     end
   end

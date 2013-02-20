@@ -3,7 +3,7 @@ class BodyNotFoundError < Exception; end
 
 class Article
   attr_accessor :name, :path, :info
-  attr_reader :at
+  attr_reader :date
 
   def self.preload_articles!
     @@articles = eval_script('./articles/articles.rb').map do |article|
@@ -15,8 +15,21 @@ class Article
     @@articles
   end
 
-  def self.all
-    self.articles
+  def self.all(sort_options = {})
+    articles = self.articles
+
+    unless sort_options.empty?
+      field = sort_options.keys.first
+      order = sort_options.values.first
+
+      articles = self.articles.sort_by do |article|
+        article.send field
+      end
+
+      articles.reverse! if order == :desc
+    end
+
+    articles
   end
 
   def self.find_by_path(path)
@@ -35,8 +48,8 @@ class Article
     "/stranky/#{ self.path }"
   end
 
-  def at=(value)
-    @at = DateTime.parse(value)
+  def date=(value)
+    @date = DateTime.parse(value)
   end
 
   def body

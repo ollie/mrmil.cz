@@ -1,3 +1,38 @@
 html {
-  font: 1em/1.5em Georgia, "Times New Roman", Times, serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #222;
+}
+
+h1 {
+  margin: 0 0 0.44444em;
+  font-size: 2.25em;
+  font-weight: normal;
+  line-height: normal;
+}
+
+h2 {
+  margin: 0.61538em 0 0.61538em;
+  font-weight: normal;
+}
+
+h3 {
+  margin: 1.77778em 0 0.88889em;
+}
+
+h4 {
+  margin: 2em 0 1em;
+}
+
+h5 {
+  margin: 2em 0 1em;
+}
+
+h6 {
+  margin: 2em 0 1em;
+}
+
+a {
+  color: blue;
 }

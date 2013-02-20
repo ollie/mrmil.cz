@@ -100,7 +100,8 @@ cs:
   time:
     am: am
     formats:
-      default: ! '%a %d. %B %Y %H:%M %z'
+      # default: ! '%a %d. %B %Y %H:%M %z'
+      default: ! '%-d. %-m. %Y v %k.%M'
       long: ! '%A %d. %B %Y %H:%M'
       short: ! '%d. %m. %H:%M'
     pm: pm

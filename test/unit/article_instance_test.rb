@@ -34,34 +34,34 @@ describe Article do
 
   it 'has a date' do
     article = Article.new
-    article.at = '2009-03-25 21:24:16 +0100'
-    article.at.year.must_equal 2009
-    article.at.month.must_equal 3
-    article.at.day.must_equal 25
-    article.at.hour.must_equal 21
-    article.at.minute.must_equal 24
-    article.at.second.must_equal 16
-    article.at.zone.must_equal '+01:00'
+    article.date = '2009-03-25 21:24:16 +0100'
+    article.date.year.must_equal 2009
+    article.date.month.must_equal 3
+    article.date.day.must_equal 25
+    article.date.hour.must_equal 21
+    article.date.minute.must_equal 24
+    article.date.second.must_equal 16
+    article.date.zone.must_equal '+01:00'
   end
 
   it 'has a date through attributes' do
-    article = Article.new at: '2009-03-25 21:24:16 +0100'
-    article.at.year.must_equal 2009
-    article.at.month.must_equal 3
-    article.at.day.must_equal 25
-    article.at.hour.must_equal 21
-    article.at.minute.must_equal 24
-    article.at.second.must_equal 16
-    article.at.zone.must_equal '+01:00'
+    article = Article.new date: '2009-03-25 21:24:16 +0100'
+    article.date.year.must_equal 2009
+    article.date.month.must_equal 3
+    article.date.day.must_equal 25
+    article.date.hour.must_equal 21
+    article.date.minute.must_equal 24
+    article.date.second.must_equal 16
+    article.date.zone.must_equal '+01:00'
   end
 
   it 'raises an exception with invalid date' do
     article = Article.new
-    proc { article.at = '2009-0 3-25 21:24:16 +0100' }.must_raise ArgumentError
+    proc { article.date = '2009-0 3-25 21:24:16 +0100' }.must_raise ArgumentError
   end
 
   it 'raises an exception with invalid date through attributes' do
-    proc { Article.new at: '2009-0 3-25 21:24:16 +0100' }.must_raise ArgumentError
+    proc { Article.new date: '2009-0 3-25 21:24:16 +0100' }.must_raise ArgumentError
   end
 
   it 'has body' do

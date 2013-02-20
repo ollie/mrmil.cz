@@ -9,7 +9,7 @@ before do
 end
 
 get '/' do
-  @articles = Article.all
+  @articles = Article.all(date: :desc)
   haml :articles
 end
 
@@ -24,6 +24,7 @@ get '/stranky/:path' do |path|
 end
 
 get '/stranky.rss' do
+  @articles = Article.all(date: :desc)
   builder :articles
 end
 

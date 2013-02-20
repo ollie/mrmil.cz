@@ -4,7 +4,7 @@
 
 Z toho lze vyvodit, že standardní computer geek je vlastně <a href="http://cs.wikipedia.org/wiki/Entomologie" rel="nofollow" title="Wiki to jistí">entomolog</a>, neboť tráví velkou část svého života lovením brouků. Nyní následuje krátký seznam typických zástupců čeledi Computerae.
 
-## Seznam počítačových brouků
+### Seznam počítačových brouků
 
 * Bugus universalis (Chyba obecná)
 * Bugus fatalis (Chyba zásadní)

@@ -1,0 +1,12 @@
+- detail = defined?(detail) ? detail : false
+
+.article
+  - if !detail
+    %h2
+      %a{ href: article.url }= article.name
+
+  %p.info
+    = article.info
+    (#{ I18n.l article.date })
+
+  .body= article.body

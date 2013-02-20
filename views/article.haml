@@ -1,7 +1,6 @@
 - title @article.name
 
-%p= @article.info
+%p.back
+  %a{ href: '/' }= I18n.t('back_to_articles')
 
-%p= I18n.l @article.at
-
-= @article.body
+= partial 'article', locals: { article: @article, detail: true }

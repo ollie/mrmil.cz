@@ -1,7 +1,7 @@
     C:\JarmileHynkuVilemino\WWW\>ruby lada.rb
     #<Lada @hlava=#<Hlava @jako=#<Pytel @od=#<Banan>>, @velikost="Velka">>
 
-## Kód
+### Kód
 
     class Pisnicka
       def self.zpivej

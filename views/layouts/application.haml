@@ -7,9 +7,15 @@
     %link{ rel: 'stylesheet', href: '/stylesheets/layout.css' }
     %meta{ name: 'viewport', content: 'width=480' }
   %body
-    %h1= @title
+
+    .width
+      %h1= @title
 
     = yield
+
+    .stripe
+      .width
+        = partial 'application/footer'
 
     - if current_env == 'production'
       %script{ src: '/javascripts/analytics.js' }
