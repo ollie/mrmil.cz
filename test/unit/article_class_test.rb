@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 describe Article do
   it 'has articles' do
     Article.articles.must_be_instance_of Array

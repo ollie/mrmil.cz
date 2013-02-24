@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 class ArticleNotFoundError < Exception; end
 class BodyNotFoundError < Exception; end
 

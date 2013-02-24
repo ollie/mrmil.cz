@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 describe Article do
   it 'has a name' do
     article = Article.new

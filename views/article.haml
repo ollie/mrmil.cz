@@ -1,6 +1,7 @@
 - title @article.name
 
-%p.back
-  %a{ href: '/' }= I18n.t('back_to_articles')
+.width
+  %p.back
+    %a{ href: '/' }= I18n.t('back_to_articles')
 
-= partial 'article', locals: { article: @article, detail: true }
+  = partial 'article', locals: { article: @article, detail: true }
