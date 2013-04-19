@@ -6,7 +6,7 @@ xml.rss :version => '2.0', 'xmlns:atom' => 'http://www.w3.org/2005/Atom' do
     xml.language 'cs'
     xml.copyright "Copyright © #{ Time.now.year } Oldřich Vetešník"
     xml.lastBuildDate time_rss(Time.now)
-    xml.link 'http://www.mrmil.cz/stranky.rss'
+    xml.link 'http://www.mrmil.cz/'
     xml.tag! 'atom:link', :rel => 'self', :href => 'http://www.mrmil.cz/stranky.rss', :type => 'application/rss+xml'
 
     @articles.each do |article|
