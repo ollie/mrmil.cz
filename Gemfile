@@ -17,6 +17,6 @@ end
 
 group :test do
   gem 'rack-test'
-  gem 'minitest' # Testing
+  gem 'minitest', '~> 4' # Testing
   gem 'turn'     # Better test output
 end
