@@ -10,9 +10,10 @@ gem 'builder'   # RSS
 gem 'sinatra'  # Web framework
 
 group :development do
-  gem 'shotgun'  # Reloading
-  gem 'pry'      # Debugging
-  gem 'compass'  # SCSS
+  gem 'shotgun'    # Reloading
+  gem 'pry'        # Debugging
+  gem 'compass'    # SCSS
+  gem 'capistrano', '~> 2' # Deployment
 end
 
 group :test do

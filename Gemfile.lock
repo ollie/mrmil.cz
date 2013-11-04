@@ -3,6 +3,12 @@ GEM
   specs:
     ansi (1.4.3)
     builder (3.2.2)
+    capistrano (2.15.5)
+      highline
+      net-scp (>= 1.0.0)
+      net-sftp (>= 2.0.0)
+      net-ssh (>= 2.0.14)
+      net-ssh-gateway (>= 1.1.0)
     chunky_png (1.2.9)
     coderay (1.0.9)
     compass (0.12.2)
@@ -12,9 +18,17 @@ GEM
     fssm (0.2.10)
     haml (4.0.3)
       tilt
+    highline (1.6.20)
     i18n (0.6.5)
     method_source (0.8.2)
     minitest (4.7.5)
+    net-scp (1.1.2)
+      net-ssh (>= 2.6.5)
+    net-sftp (2.1.2)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.7.0)
+    net-ssh-gateway (1.2.0)
+      net-ssh (>= 2.6.5)
     pry (0.9.12.2)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
@@ -43,6 +57,7 @@ PLATFORMS
 
 DEPENDENCIES
   builder
+  capistrano (~> 2)
   compass
   haml
   i18n
