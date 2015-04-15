@@ -4,6 +4,7 @@ Bundler.require
 require './config/environment'
 
 before do
+  I18n.config.enforce_available_locales = false
   I18n.locale = :cs
   I18n.load_path += Dir['./config/locales/**/*.{rb,yml}']
 end
