@@ -14,7 +14,15 @@ group :development do
   gem 'shotgun'    # Reloading
   gem 'pry'        # Debugging
   gem 'compass'    # SCSS
-  gem 'capistrano', '~> 2' # Deployment
+
+  # Rails specific Capistrano tasks.
+  gem 'capistrano-rails', require: false
+
+  # rbenv integration for Capistrano.
+  gem 'capistrano-rbenv', require: false
+
+  # Passenger support for Capistrano 3.x.
+  gem 'capistrano-passenger', require: false
 end
 
 group :test do
