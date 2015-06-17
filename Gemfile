@@ -15,9 +15,6 @@ group :development do
   gem 'pry'        # Debugging
   gem 'compass'    # SCSS
 
-  # Rails specific Capistrano tasks.
-  gem 'capistrano-rails', require: false
-
   # rbenv integration for Capistrano.
   gem 'capistrano-rbenv', require: false
 
