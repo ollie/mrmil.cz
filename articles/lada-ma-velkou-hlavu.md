@@ -16,9 +16,9 @@
     end
 
     class Hlava
-      def initialize( config )
+      def initialize(config)
         config.each_pair do |name, value|
-          self.instance_variable_set "@#{ name }".to_sym, value
+          instance_variable_set("@#{name}", value)
         end
       end
     end
@@ -27,11 +27,11 @@
     end
 
     class Pytel
-      def initialize( config )
-        @od = config[:od]
+      def initialize(od:)
+        @od = od
       end
     end
 
     Pisnicka.zpivej do |lada|
-      lada.hlava = Hlava.new :velikost => 'Velka', :jako => Pytel.new( :od => Banan.new )
+      lada.hlava = Hlava.new(velikost: 'Velka', jako: Pytel.new(od: Banan.new))
     end
