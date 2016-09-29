@@ -10,8 +10,9 @@ gem 'builder'   # RSS
 gem 'sinatra'  # Web framework
 
 group :development do
-  gem 'shotgun'    # Reloading
-  gem 'pry'        # Debugging
+  gem 'puma'
+  # gem 'pry'        # Debugging
+  # gem 'pry-doc'
   gem 'compass'    # SCSS
 
   # rbenv integration for Capistrano.
