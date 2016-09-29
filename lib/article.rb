@@ -55,7 +55,7 @@ class Article
   def body
     raise BodyNotFoundError.new('@path must not be blank!') if self.path.nil? || self.path.empty?
     body_path = "./articles/#{ self.path }.md"
-    raise BodyNotFoundError.new("Path does not exist: #{ body_path }") unless File.exists?(body_path)
+    raise BodyNotFoundError.new("Path does not exist: #{ body_path }") unless File.file?(body_path)
     RDiscount.new( File.open(body_path, 'r', external_encoding: Encoding::UTF_8).read ).to_html
   end
 end
