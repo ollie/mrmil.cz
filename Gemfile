@@ -10,7 +10,7 @@ gem 'builder'   # RSS
 gem 'sinatra'  # Web framework
 
 group :development do
-  gem 'puma'
+  gem 'puma', require: false
   # gem 'pry'        # Debugging
   # gem 'pry-doc'
   gem 'compass'    # SCSS
