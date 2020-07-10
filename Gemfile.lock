@@ -38,7 +38,7 @@ GEM
     i18n (1.8.3)
       concurrent-ruby (~> 1.0)
     minitest (4.7.5)
-    multi_json (1.14.1)
+    multi_json (1.15.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     net-scp (3.0.0)
