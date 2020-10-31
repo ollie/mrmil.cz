@@ -4,6 +4,7 @@ GEM
     airbrussh (1.4.0)
       sshkit (>= 1.6.1, != 1.7.0)
     ansi (1.5.0)
+    bcrypt_pbkdf (1.0.1)
     builder (3.2.4)
     capistrano (3.14.1)
       airbrussh (>= 1.0.0)
@@ -31,6 +32,7 @@ GEM
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     concurrent-ruby (1.1.7)
+    ed25519 (1.2.4)
     ffi (1.13.1)
     haml (5.2.0)
       temple (>= 0.8.0)
@@ -77,11 +79,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt_pbkdf
   builder
   capistrano-bundler
   capistrano-passenger
   capistrano-rbenv
   compass
+  ed25519
   haml
   i18n
   minitest (~> 4)

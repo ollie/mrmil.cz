@@ -23,6 +23,9 @@ group :development do
 
   # Passenger support for Capistrano 3.x.
   gem 'capistrano-passenger', require: false
+
+  gem 'ed25519', require: false      # Required for Capistrano to work with ed25519 key.
+  gem 'bcrypt_pbkdf', require: false # Required for Capistrano to work with ed25519 key.
 end
 
 group :test do
