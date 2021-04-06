@@ -13,7 +13,7 @@ GEM
       sshkit (>= 1.9.0)
     capistrano-bundler (2.0.1)
       capistrano (~> 3.1)
-    capistrano-passenger (0.2.0)
+    capistrano-passenger (0.2.1)
       capistrano (~> 3.0)
     capistrano-rbenv (2.2.0)
       capistrano (~> 3.1)
@@ -37,7 +37,7 @@ GEM
     haml (5.2.1)
       temple (>= 0.8.0)
       tilt
-    i18n (1.8.9)
+    i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     minitest (4.7.5)
     multi_json (1.15.0)
@@ -97,4 +97,4 @@ DEPENDENCIES
   turn
 
 BUNDLED WITH
-   2.2.3
+   2.2.15
