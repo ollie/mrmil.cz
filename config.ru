@@ -10,7 +10,7 @@ set :root,  root_dir
 disable :run, :raise_errors, :show_exceptions
 set :raise_errors, true
 
-FileUtils.mkdir_p 'log' unless File.exists?('log')
+FileUtils.mkdir_p 'log' unless File.exist?('log')
 log = File.new('log/production.log', 'a')
 $stderr.reopen(log)
 
