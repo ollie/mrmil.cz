@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rake'
 gem 'haml', '~> 5' # Templating
+gem 'ostruct'
 gem 'rdiscount' # Markdown
 gem 'i18n'      # Locales
 gem 'builder'   # RSS
